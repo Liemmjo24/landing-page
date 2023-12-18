@@ -1,0 +1,52 @@
+
+/*Creates the nav-bar*/
+.header{
+    display:flex;
+    padding:8px;
+    background-color: aqua;
+    justify-content: space-between;
+
+}
+/*Puts the logo and links in same bar*/
+.logo, .nav-bar{
+    display:flex;
+    align-items:center;
+}
+/*Creates a gap between links*/
+.links{
+    display: flex;
+    gap:15px;
+    padding-right:10px;
+}
+.logo{
+    padding-left:10px;
+}
+ul{
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    color:black;
+}
+
+.landing-page{
+    display:flex;
+    justify-content: space-between;
+    text-align:center;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(154, 187, 187);
+}
+/*Flex-wrap to squeeze*/
+.card-bar{
+    padding:32px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+.card{
+    padding:16px;
+    margin:16px;
+    width:300px;
+    background-color:rgb(143, 143, 148)
+  }
